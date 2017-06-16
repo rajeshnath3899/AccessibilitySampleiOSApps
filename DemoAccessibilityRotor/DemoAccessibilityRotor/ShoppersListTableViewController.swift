@@ -10,7 +10,7 @@ import UIKit
 
 class ShoppersListTableViewController: UITableViewController {
     
-    var stores:[Store] = []
+   private var stores:[Store] = []
     
     override func awakeFromNib() {
         
