@@ -18,7 +18,7 @@ fileprivate let FloorPlanString: String = "FloorPlanString"
 
 class EXIFloorPlanView: UIView {
     
-    var floorPlanFeatures: [[String:Any]] = []
+   private var floorPlanFeatures: [[String:Any]] = []
     
     override init(frame: CGRect) {
         super.init(frame: frame)
